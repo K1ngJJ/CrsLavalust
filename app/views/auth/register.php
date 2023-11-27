@@ -77,48 +77,48 @@
 
                   <form class="row g-3 needs-validation" novalidate  method="post" action="/create">
 
-                  <div class="col-12">
+                  <div class="mb-3">
                       <label for="FullName" class="form-label">Full Name</label>
                       <input type="name" name="name" class="form-control" id="FullName" required>
                       <div class="invalid-feedback">Please enter a your name!</div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="mb-3">
                       <label for="UserName" class="form-label">username</label>
                       <input type="username" name="username" class="form-control" id="UserName" required>
                       <div class="invalid-feedback">Please enter a your username!</div>
                     </div>
                    
-                    <div class="col-12">
-                      <label for="yourEmail" class="form-label">Your Email</label>
+                    <div class="mb-3">
+                      <label for="yourEmail" class="form-label">Email</label>
                       <input type="email" name="email" class="form-control" id="yourEmail" required>
                       <div class="invalid-feedback">Please enter a valid Email adddress!</div>
                     </div>
 
                     
-                    <div class="col-12">
+                    <div class="mb-3">
                       <label for="yourPassword" class="form-label">Password</label>
                       <input type="password" name="password" class="form-control" id="yourPassword" required>
                       <div class="invalid-feedback">Please enter your password!</div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="mb-3">
                       <label for="confirmpassword" class="form-label">Confirm Password</label>
                       <input type="password" name="password" class="form-control" id="password" required>
                       <div class="invalid-feedback">Please confirm your password!</div>
                     </div>
 
-                    <div class="col-12">
+                    <div class="mb-3">
                       <div class="form-check">
                         <input class="form-check-input" name="terms" type="checkbox" value="" id="acceptTerms" required>
                         <label class="form-check-label" for="acceptTerms">I agree and accept the <a href="#">terms and conditions</a></label>
                         <div class="invalid-feedback">You must agree before submitting.</div>
                       </div>
                     </div>
-                    <div class="col-12">
+                    <div class="mb-3">
                       <button class="btn btn-primary w-100" type="submit">Create Account</button>
                     </div>
-                    <div class="col-12">
+                    <div class="mb-3">
                       <p class="small mb-0">Already have an account? <a href="/login">Log in</a></p>
                     </div>
                   </form>
